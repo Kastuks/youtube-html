@@ -1,0 +1,41 @@
+.video-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.message {
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.video-description {
+    width: 280px;
+    margin-bottom: 60px;
+    font-weight: lighter;
+    line-height: 22px;
+}
+
+.shop {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.shop:hover {
+    text-decoration: underline;
+    text-underline: white;
+}
+
+
+
+body {
+    font-family: Arial;
+}

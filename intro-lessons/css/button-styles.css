@@ -1,0 +1,110 @@
+.sub {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 550;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.sub:hover {
+    opacity: 0.6;
+}
+
+.sub:active {
+    opacity: 0.4;
+}
+
+.join {
+    background-color: white;
+    border-color: dodgerblue;
+    color: dodgerblue;
+    padding: 10px 14px;
+    font-weight: normal;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.join:active {
+    opacity: 0.7;
+}
+
+.tweet {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.tweet:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet:active {
+    opacity: 0.7;
+}
+
+.goToB {
+    padding: 15px;
+    transition: padding 1s;
+    /*font-stretch: extra-condensed;*/
+}
+
+.goToB:hover {
+    padding: 30px;
+    /*font-stretch: extra-condensed;*/
+}
+
+.amazon {
+    background-color: green;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.copycatamazon {
+    background-color: green;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: padding 0.4s, margin 0.4s;
+}
+
+.amazon:active {
+    margin-top: 10px;
+    margin-left: 5px;
+    box-shadow: none;
+}
+
+.copycatamazon:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

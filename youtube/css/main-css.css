@@ -1,0 +1,105 @@
+.video-description {
+    width: 250px;
+    font-weight: lighter;
+    line-height: 22px;
+}
+
+.video-creator,
+.video-stats {
+    font-weight: lighter;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.video-container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.videos-container {
+    font-family: Roboto, Arial;
+    background-color: #e8e8e8;
+    margin: 10px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 14px;
+    /*height: 100%;*/
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 20px;
+}
+
+.video-image {
+    height: 150px;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.channel-picture {
+    vertical-align: top;
+    display: inline-block;
+    width: 50px;
+}
+
+.thumbnail {
+    width: 250px;
+    display: inline-block;
+}
+
+.search-bar {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 0;
+    opacity: 0.6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 120px;
+}
+
+.search-button {
+    background-image: url("https://supersimple.dev/public/img/exercises/youtube/icons/search.svg");
+    padding-top: 17px;
+    margin-left: 0;
+    padding-bottom: 17px;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.message {
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+body {
+    font-family: Arial;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
